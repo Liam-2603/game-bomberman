@@ -1,4 +1,7 @@
 # Bài tập lớn OOP - Bomberman Game
+## Tác giả là các sinh viên:
+### Trưởng nhóm: Nguyễn Tuấn Thành: Code Entity và Overview.
+### Các thành viên còn lại: Vũ Đình Thọ, Nguyễn Công Thành: Chia ra code command, graphics, sound.
 
 Trong bài tập lớn này, nhiệm vụ của bạn là viết một phiên bản Java mô phỏng lại trò chơi [Bomberman](https://www.youtube.com/watch?v=mKIOVwqgSXM) kinh điển của NES.
 
