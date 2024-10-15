@@ -1,0 +1,26 @@
+
+.level_scene {
+    -fx-background-color: rgba(37,40,48,0.99);
+}
+
+.level_scene .text {
+    -fx-font-size: 40px;
+}
+
+.score_font {
+    -fx-font-size: 20px;
+}
+
+.bomberman_font_unmodified .text{
+    -fx-font-size: 20px;
+}
+
+.score_font .text {
+    -fx-font-size: 24px;
+}
+
+.background {
+    -fx-background-color: rgba(14,65,37,0.99);
+}
+
+

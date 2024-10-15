@@ -1,0 +1,40 @@
+2 15 31
+###############################
+#      ** *  1 * 2 *  * * *   #
+# #   #b# # #*#*# # # #*#*#*# #
+#  x      ***  *  1   * 2 * * #
+# # # # # # # # # #s# #*# # # #
+#*  *   p  *  *      *        #
+# # # # # #*# # #*#*# # # # #*#
+#f         x **  *  *   1     #
+# # # # #*# # # #*#*# # # # # #
+#           *   *  s       *  #
+# # # # #*# # # #*#*# # # # # #
+#*    *f  *       *           #
+# #*# # # # # # #*# # # # # # #
+#*   *     *        **   *   *#
+###############################
+
+Mô tả cấu trúc tệp cấu hình màn chơi:
+1/ Dòng đầu tiên bao gồm 3 số nguyên L, R, C:
+L - số thứ tự màn chơi
+R - số hàng của bản đồ
+C - số cột của bản đồ
+
+2/ R dòng tiếp theo, mỗi dòng có C kí tự. Mỗi kí tự đại diện cho một đối tượng trên bản đồ:
+Tiles:
+# - Wall
+* - Brick
+x - Portal
+
+Character:
+p - Bomber
+1 - Balloom
+2 - Oneal
+
+Items:
+b - Bomb Item
+f - Flame Item
+s - Speed Item
+
+Kí tự khác các kí tự trên - Grass

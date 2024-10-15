@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e56708e-bc1b-4c2a-9bd2-222dda22f2e0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/bomberman-starter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_base_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_base_win_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_controls_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_controls_win_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_fxml_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_graphics_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bomberman-starter/bomberman-starter-starter-2" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2On5LsA2MvheBrcYCu0AXxPyTVn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/java/bomberman-game-n2-main/bomberman-game-n2-main",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e56708e-bc1b-4c2a-9bd2-222dda22f2e0" name="Changes" comment="" />
+      <created>1682183453243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682183453243</updated>
+    </task>
+    <servers />
+  </component>
+</project>

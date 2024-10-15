@@ -1,0 +1,67 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>uet.oop</groupId>
+    <artifactId>bomberman</artifactId>
+    <version>v0.1</version>
+
+    <name>Bomberman</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>15</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>15</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <directory>target</directory>
+        <outputDirectory>target/classes</outputDirectory>
+        <finalName>bomberman</finalName>
+        <sourceDirectory>src</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>res</directory>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>uet.oop.bomberman.BombermanGame</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

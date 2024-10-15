@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="blend" fx:id="scoreBoard" prefHeight="603.0" prefWidth="138.0" styleClass="background" stylesheets="@../css.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.command.ScoreBoardController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="22.0" prefHeight="30.0" prefWidth="88.0" styleClass="score_font" text="Score" textFill="WHITE">
+         <font>
+            <Font name="Regular" size="23.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.43" />
+         </effect>
+      </Label>
+      <Label fx:id="score" alignment="CENTER" contentDisplay="CENTER" layoutX="19.0" layoutY="57.0" prefHeight="35.0" prefWidth="100.0" styleClass="score_font" textFill="WHITE">
+         <font>
+            <Font name="Regular" size="21.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="150.0" prefHeight="200.0" prefWidth="130.0">
+         <children>
+            <Label layoutX="10.0" layoutY="17.0" styleClass="bomberman_font" text="Flame: " textFill="WHITE">
+               <font>
+                  <Font name="Regular" size="15.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <effect>
+                  <DropShadow color="#ff1500" />
+               </effect>
+            </Label>
+            <Label fx:id="flame" alignment="CENTER" contentDisplay="CENTER" layoutX="95.0" layoutY="17.0" styleClass="bomberman_font_unmodified" textFill="#ff2c00">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="56.0" styleClass="bomberman_font" text="Bombs: " textFill="WHITE">
+               <font>
+                  <Font name="Regular" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#2308ff" />
+               </effect>
+            </Label>
+            <Label fx:id="bombs" alignment="CENTER" contentDisplay="CENTER" layoutX="95.0" layoutY="56.0" styleClass="bomberman_font_unmodified" textFill="#090df5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="95.0" styleClass="bomberman_font" text="Speed: " textFill="#f0f0f0">
+               <font>
+                  <Font name="Regular" size="15.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#00ff55" />
+               </effect>
+            </Label>
+            <Label fx:id="speed" alignment="CENTER" contentDisplay="CENTER" layoutX="95.0" layoutY="95.0" styleClass="bomberman_font_unmodified" textFill="#12ca1e">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <HBox fx:id="life" alignment="CENTER" layoutX="20.0" layoutY="146.0" prefHeight="40.0" prefWidth="98.0" />
+         </children></AnchorPane>
+      <Label fx:id="invincibilityTime" layoutX="48.0" layoutY="97.0" opacity="0.0" styleClass="cooldown_font" textFill="#fff533">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="flamePassTime" layoutX="48.0" layoutY="124.0" opacity="0.0" styleClass="cooldown_font" textFill="#fcff53">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="level" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="350.0" prefHeight="47.0" prefWidth="107.0" styleClass="bomberman_font" text="Label" textFill="WHITE" underline="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
